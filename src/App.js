@@ -30,14 +30,17 @@ function App() {
         </div>
         <div className="form">
             <button onClick={setAnimation}>{text}</button>
-            <label htmlFor="velocity">Velocidade:</label>
-            <input 
-              name="velocity" 
-              type="range" 
-              min="0.5" max="3" 
-              value={selectValue} 
-              onChange={e => setSelectValue(e.target.value)}
-              step="0.5"/>
+            <div className="velocityForm">
+              <label htmlFor="velocity">Velocidade:</label>
+              <input 
+                name="velocity" 
+                id="velocity"
+                type="range" 
+                min="0.5" max="3" 
+                value={selectValue} 
+                onChange={e => setSelectValue(e.target.value)}
+                step="0.025"/>
+            </div>
         </div>
       </div> 
 

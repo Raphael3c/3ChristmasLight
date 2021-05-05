@@ -19,3 +19,17 @@
   top: 50%;
   transform: translate(0, -50%);
 }
+
+.form button{
+  margin-right: 150px;
+  width: 10rem;
+  height: 5rem;
+  background-color: #E4D9FF;
+  border: none;
+  border-radius: 3px;
+}
+
+.velocityForm input{
+  display: block;
+  margin-top: 25px;
+}
