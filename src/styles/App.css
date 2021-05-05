@@ -1,8 +1,21 @@
 .App{
-
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 
+}
+
+.flex{
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 45%;
+  transform: translate(0, -45%);
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
 }

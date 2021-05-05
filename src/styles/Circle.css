@@ -7,4 +7,78 @@
   position: relative;
   top: 40%;
   margin-right: 10px;
+
+  background: rgba(0, 0, 0, 0.3);
+  transition: 1s all ease;
+}
+
+
+@keyframes glow-1 {
+  0%,
+  100% {
+    box-shadow: 0 0 20px 5px #d82b1a;
+  }
+  50% {
+    box-shadow: none;
+  }
+}
+
+@keyframes glow-2 {
+  0%,
+  100% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 20px 5px #eb5e1f;
+  }
+}
+
+@keyframes glow-3 {
+  0%,
+  100% {
+    box-shadow: 0 0 20px 5px #f0d144;
+  }
+  50% {
+    box-shadow: none;
+  }
+}
+
+@keyframes glow-4 {
+  0%,
+  100% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 20px 5px #0a7f43;
+  }
+}
+
+@keyframes glow-5 {
+  0%,
+  100% {
+    box-shadow: 0 0 20px 5px #359ae7;
+  }
+  50% {
+    box-shadow: none;
+  }
+}
+
+@keyframes glow-6 {
+  0%,
+  100% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 20px 5px #1c3aa8;
+  }
+}
+
+@keyframes glow-7 {
+  0%,
+  100% {
+    box-shadow: 0 0 20px 5px #642359;
+  }
+  50% {
+    box-shadow: none;
+  }
 }
